@@ -145,7 +145,63 @@
             </div>
         </div>
     </div>
+
+    <!-- counter  -->
+    <div class="counters">
+        <p class="we_are_always">we are always here to serve you.</p>
+        <div class="row text-center all-counter">
+            <div class="col">
+                <div class="counter">
+                    <h3 class="counter">980</h3><span class="count">+</span>
+                    <h2 class="timer count-title count-number" data-to="100" data-speed="1500"></h2>
+                    <p class="count-text ">satisfied customers</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="counter">
+                    <h3 class="counter">210</h3><span class="count">+</span>
+                    <h2 class="timer count-title count-number" data-to="1700" data-speed="1500"></h2>
+                    <p class="count-text ">delicious dishes</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="counter">
+                    <h3 class="counter">7</h3><span class="count">k+</span>
+                    <h2 class="timer count-title count-number" data-to="11900" data-speed="1500"></h2>
+                    <p class="count-text ">food delivered</p>
+                </div>
+            </div>
+        </div>
     </div>
+
+
+    <!-- counter js  -->
+    <script>
+        $(document).ready(function () {
+
+            var counters = $(".counter");
+            var countersQuantity = counters.length;
+            var counter = [];
+
+            for (i = 0; i < countersQuantity; i++) {
+                counter[i] = parseInt(counters[i].innerHTML);
+            }
+
+            var count = function (start, value, id) {
+                var localStart = start;
+                setInterval(function () {
+                    if (localStart < value) {
+                        localStart++;
+                        counters[id].innerHTML = localStart;
+                    }
+                }, 40);
+            }
+
+            for (j = 0; j < countersQuantity; j++) {
+                count(0, counter[j], j);
+            }
+        });
+    </script>
 
     <!-- bootstrap link-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
