@@ -340,7 +340,6 @@ ul.navbar-nav li.nav-item a {
 @media screen and (max-width:376px) {
     .delivery {
         margin-top: 80px;
-        background-size: cover;
         min-height: 1120px;
     }
 }
@@ -372,17 +371,18 @@ ul.navbar-nav li.nav-item a {
         font-size: 20px;
         margin-top: 80px;
     }
+
     .delivery {
         margin-top: 80px;
         height: auto;
         min-height: 100vh;
-        padding-bottom: 25px;
-        /* Adjust the minimum height to fit the viewport */
-      }
-      .loream_delivery {
+        padding-bottom:40px;
+    }
+
+    .loream_delivery {
         font-size: 18px;
         margin-top: 20px;
-      }
+    }
 }
 
 .loream_delivery {
@@ -391,7 +391,7 @@ ul.navbar-nav li.nav-item a {
     font-weight: 400;
     letter-spacing: 1.53px;
     text-transform: uppercase;
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: 1.53px;
     margin-top: 40px;
 }
@@ -423,4 +423,76 @@ ul.navbar-nav li.nav-item a {
     font-size: 24px;
     letter-spacing: 1.08px;
     text-transform: capitalize;
+}
+@media screen and (min-width:320px) and (max-width:376px){
+    .order_now{
+        width: 170px;
+        height: 40px;
+        font-size: 19px;
+    }
+}
+
+/* best for  */
+.row{
+    justify-content: center;
+    column-gap: 110px;
+    padding-top: 50px;
+}
+@media screen and (max-width:768px){
+    .row{
+        justify-content: center;
+        column-gap: 60px;
+        padding-top: 20px;
+    }
+} 
+.best {
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+@media screen and (max-width:768px){
+    .best{
+        font-size: 23px; 
+        margin-top: 50px;
+    }
+}
+
+.ser_img {
+    width: 240px;
+}
+@media screen and (max-width:768px){
+    .ser_img{
+        max-width: 150px; 
+    }
+}
+.heading_name {
+    margin-top: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 0.99px;
+}
+@media screen and (max-width:768px){
+    .heading_name{
+        font-size: 16px; 
+    }
+}
+.services_text {
+    color: #504F4F;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 19px;
+    line-height: normal;
+    letter-spacing: 0.855px;
+    text-transform: capitalize;
+}
+@media screen and (max-width:768px){
+    .services_text{
+        font-size: 13px;
+        letter-spacing: 0.855px;
+        line-height: normal;
+    }
 }
