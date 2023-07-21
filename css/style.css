@@ -491,9 +491,9 @@ ul.navbar-nav li.nav-item a {
 }
 @media screen and (min-width:320px) and (max-width:376px){
         .services_text{
-            word-spacing: 5px;
-            letter-spacing: 1px;
+            /* word-spacing: 3px; */
             text-align: center;
+            font-size: 18px !important;
         }
 }
 @media screen and (max-width:768px){
