@@ -755,13 +755,23 @@ ul.navbar-nav li.nav-item a {
 }
 @media screen and (min-width:320px) and (max-width:376px){
     .input_email{
-        margin-left: 30px;
+        margin-left: 30px !important;
         width: 250px;
         border-radius: 2px;
         padding-left: 10px;
     }
 }
-
+@media screen and (max-width:768px) {
+    .input_email{
+        width: 250px;
+        margin-left: 170px;
+        height: 50px;
+        padding-left: 15px;
+    }
+}
+/* @media screen and (max-width:) {
+    
+} */
 ::placeholder {
     color: #939393;
     font-size: 18px;
@@ -789,12 +799,14 @@ ul.navbar-nav li.nav-item a {
         margin-left: 80px;
     }
 }
-
-/* * {
-    margin: 0;
-    padding: 0;
+@media screen and (max-width:768px) {
+    .sub{
+        height: 50px;
+        width: 140px;
+    }
 }
 
+/*
 a {
     color: #fff;
     text-decoration: none;
