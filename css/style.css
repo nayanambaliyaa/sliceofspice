@@ -679,7 +679,7 @@ ul.navbar-nav li.nav-item a {
 }
 @media screen and (min-width:320px) and (max-width:376px){
     .slider_text{
-       font-size: 15px;
+       font-size: 14px;
     } 
 }
 @media screen and (max-width:768px){
