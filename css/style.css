@@ -518,7 +518,7 @@ ul.navbar-nav li.nav-item a {
     background-image: url(/imgess/counter_bg_img.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     margin-top: 100px;
     height: 544px;
 }
