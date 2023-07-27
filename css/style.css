@@ -7,6 +7,11 @@ body,
 html {
     overflow-x: hidden;
 }
+/* @media screen and (min-width:320px) and (max-width:376px){
+    body{
+        overflow-x: hidden;
+    }
+} */
 
 .nav_imges {
     margin-left: 89px;
@@ -459,7 +464,7 @@ ul.navbar-nav li.nav-item a {
 
 @media screen and (max-width:768px) {
     .best {
-        font-size: 23px !important;
+        font-size: 23px;
         margin-top: 50px;
     }
 }
@@ -501,13 +506,13 @@ ul.navbar-nav li.nav-item a {
 @media screen and (min-width:320px) and (max-width:376px) {
     .services_text {
         text-align: center;
-        font-size: 20px !important;
+        font-size: 20px;
     }
 }
 
 @media screen and (max-width:768px) {
     .services_text {
-        font-size: 13px !important;
+        font-size: 17px;
         letter-spacing: 0.855px;
         line-height: normal;
     }
@@ -631,7 +636,6 @@ ul.navbar-nav li.nav-item a {
 /* sliders tital  */
 .carousel {
     height: 544px;
-    /* width: 100%; */
 }
 
 .slider_tital {
@@ -758,7 +762,7 @@ ul.navbar-nav li.nav-item a {
 
 @media screen and (min-width:320px) and (max-width:376px) {
     .input_email {
-        margin-left: 55px !important;
+        margin-left: 35px !important;
         width: 250px;
         border-radius: 2px;
         padding-left: 10px;
@@ -802,7 +806,7 @@ ul.navbar-nav li.nav-item a {
 @media screen and (min-width:320px) and (max-width:376px) {
     .sub {
         margin-top: 10px;
-        margin-left: 105px;
+        margin-left: 88px;
     }
 }
 
@@ -1011,6 +1015,7 @@ p {
     margin-top: 343px;
     background-color: #C93;
     width: 1519px;
+    display: block;
 }
 @media screen and (min-width:320px) and (max-width:376px){
     .footer_part-3{
@@ -1035,7 +1040,6 @@ p {
     .copy_right{
        padding-top: 15px;
        left: 39px;
-       display: block;
        font-size: 17px;
     } 
 }
