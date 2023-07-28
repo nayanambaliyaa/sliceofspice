@@ -8,6 +8,10 @@ html {
     overflow-x: hidden;
 }
 
+body {
+    position: relative;
+}
+
 /* @media screen and (min-width:320px) and (max-width:376px){
     body{
         overflow-x: hidden;
@@ -477,11 +481,11 @@ ul.navbar-nav li.nav-item a {
 @media screen and (max-width:768px) {
     .ser_img {
         max-width: 150px;
+        margin-top: 20px;
     }
 }
 
 .heading_name {
-    margin-top: 20px;
     font-weight: 600;
     text-align: center;
     text-transform: uppercase;
@@ -513,7 +517,7 @@ ul.navbar-nav li.nav-item a {
 
 @media screen and (max-width:768px) {
     .services_text {
-        font-size: 17px;
+        font-size: 16px;
         letter-spacing: 0.855px;
         line-height: normal;
     }
@@ -636,7 +640,13 @@ ul.navbar-nav li.nav-item a {
 
 /* sliders tital  */
 .carousel {
-    height: 544px;
+    height: 600px;
+}
+
+@media screen and (min-width:320px) and (max-width:376px) {
+    .carousel {
+        height: 500px;
+    }
 }
 
 .slider_tital {
@@ -652,26 +662,28 @@ ul.navbar-nav li.nav-item a {
 
 @media screen and (min-width:320px) and (max-width:376px) {
     .slider_tital {
-        font-size: 25px;
+        font-size: 22px;
         margin-top: 50px;
     }
 }
 
 @media screen and (max-width:768px) {
     .slider_tital {
-        font-size: 27px;
-        margin-top: 70px;
+        font-size: 22px;
+        /* margin-top: 70px; */
     }
 }
 
 .dotatd {
     margin: 0 auto;
+    margin-top: 50px;
 }
 
 @media screen and (min-width:320px) and (max-width:376px) {
     .dotatd {
         width: 60px;
         height: 40px;
+        margin-top: 30px;
     }
 }
 
@@ -687,7 +699,8 @@ ul.navbar-nav li.nav-item a {
 
 @media screen and (min-width:320px) and (max-width:376px) {
     .slider_text {
-        font-size: 14px;
+        font-size: 20px !important;
+        padding-top: 40px;
     }
 }
 
@@ -699,7 +712,7 @@ ul.navbar-nav li.nav-item a {
 
 .allipse {
     text-align: center;
-    margin-top: 23px;
+    margin-top: 35px;
 }
 
 .james {
@@ -805,10 +818,6 @@ ul.navbar-nav li.nav-item a {
 }
 
 @media screen and (min-width:320px) and (max-width:376px) {
-    body,html{
-        margin: 0;
-        padding: 0;
-    }
     .sub {
         margin-top: 10px;
         margin-left: 88px;
@@ -833,7 +842,7 @@ ul.navbar-nav li.nav-item a {
 @media screen and (min-width:320px) and (max-width:376px) {
     .main_part {
         padding-top: 30px;
-        height: 1088px;
+        height: 853px;
         display: block;
     }
 
@@ -849,6 +858,12 @@ ul.navbar-nav li.nav-item a {
 @media screen and (min-width:320px) and (max-width:376px) {
     .sliceofspice {
         padding-left: 20px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .sliceofspice {
+        padding-left: 0px;
     }
 }
 
@@ -874,6 +889,12 @@ ul.navbar-nav li.nav-item a {
     }
 }
 
+@media screen and (max-width:768px) {
+    .why {
+        font-size: 11px;
+    }
+}
+
 .loream_tew {
     color: #FFF;
     font-family: 'Montserrat', sans-serif;
@@ -891,6 +912,12 @@ ul.navbar-nav li.nav-item a {
     }
 }
 
+@media screen and (max-width:768px) {
+    .loream_tew {
+        font-size: 11px;
+    }
+}
+
 .quciks {
     color: #FFFFFF;
     font-size: 19px;
@@ -904,12 +931,34 @@ ul.navbar-nav li.nav-item a {
 @media screen and (min-width:320px) and (max-width:376px) {
     .quciks {
         padding-top: 35px;
-        padding-left: 60px;
+        padding-left: 60px !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .quciks {
+        font-size: 12px;
+        padding-left: 17px;
     }
 }
 
 .lefts {
     padding-left: 80px;
+}
+@media screen and (min-width:320px) and (max-width:376px) {
+    .lefts {
+        padding-left: 60px !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .lefts {
+        padding-left: 12px;
+    }
+
+    .fa-solid {
+        font-size: 10px;
+    }
 }
 
 .page_name {
@@ -918,11 +967,18 @@ ul.navbar-nav li.nav-item a {
     font-size: 15px;
     font-weight: 700;
     padding-bottom: 0px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width:768px) {
+    .page_name {
+        font-size: 11px;
+    }
 }
 
 .page_name:hover {
-    text-decoration: none;
-    color: #FFFFFF;
+    color: #C93;
 }
 
 p {
@@ -943,6 +999,12 @@ p {
         margin-top: 35px;
     }
 }
+@media screen and (max-width:768px) {
+    .hourse {
+        font-size: 11px;
+    }
+}
+
 
 .opening_hourse {
     padding-left: 80px;
@@ -953,6 +1015,7 @@ p {
         padding-left: 60px;
     }
 }
+
 
 .time {
     color: #C93;
@@ -969,9 +1032,15 @@ p {
 
 @media screen and (min-width:320px) and (max-width:376px) {
     .address_area {
-        padding-left: 60px;
+        padding-left: 60px !important;
     }
 }
+@media screen and (max-width:768px) {
+    .address_area {
+        padding-left: 20px;
+    }
+}
+
 
 .get_in_touch {
     margin-top: 97px;
@@ -988,6 +1057,11 @@ p {
         margin-top: 45px;
     }
 }
+@media screen and (max-width:768px) {
+    .get_in_touch {
+        font-size: 11px;
+    }
+}
 
 .final_location {
     text-transform: capitalize;
@@ -996,6 +1070,11 @@ p {
 @media screen and (min-width:320px) and (max-width:376px) {
     .final_location {
         font-size: 13.5px;
+    }
+}
+@media screen and (max-width:768px) {
+    .final_location {
+       font-size: 13px;
     }
 }
 
@@ -1012,10 +1091,26 @@ p {
         font-size: 13px
     }
 }
+@media screen and (max-width:768px) {
+    .restaurant {
+        font-size: 11px;
+    }
+}
 
 .numbers {
     color: #FFFFFF;
     padding-top: 10px;
+}
+@media screen and (max-width:768px) {
+    .numbers {
+        font-size: 11px;
+    }
+    .emails_website{
+        font-size: 11px;
+    }
+    .fa-location-dot:before{
+        font-size: 16px;
+    }
 }
 
 .emails {
@@ -1030,13 +1125,12 @@ p {
     margin-top: 343px;
     background-color: #C93;
     width: 1519px;
-    display: block;
 }
 
 @media screen and (min-width:320px) and (max-width:376px) {
     .footer_part-3 {
-        margin-top: 81px;
-        height: 58px;
+        margin-top: 89px;
+        height: 66px;
         display: block;
     }
 }
@@ -1055,9 +1149,14 @@ p {
 
 @media screen and (min-width:320px) and (max-width:376px) {
     .copy_right {
-        padding-top: 15px;
-        left: 39px;
+        padding-top: 20px;
+        left: 39px !important;
         font-size: 17px;
+    }
+}
+@media screen and (max-width:768px){
+    .copy_right{
+        left: 50px;
     }
 }
 
@@ -1066,4 +1165,9 @@ p {
     height: 30px;
     width: 110px;
     margin-left: 1263px;
+}
+@media screen and (max-width:768px){
+    .all_app{
+        margin-left: 640px;
+    }
 }
