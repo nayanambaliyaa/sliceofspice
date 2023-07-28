@@ -7,6 +7,7 @@ body,
 html {
     overflow-x: hidden;
 }
+
 /* @media screen and (min-width:320px) and (max-width:376px){
     body{
         overflow-x: hidden;
@@ -804,6 +805,10 @@ ul.navbar-nav li.nav-item a {
 }
 
 @media screen and (min-width:320px) and (max-width:376px) {
+    body,html{
+        margin: 0;
+        padding: 0;
+    }
     .sub {
         margin-top: 10px;
         margin-left: 88px;
@@ -861,6 +866,7 @@ ul.navbar-nav li.nav-item a {
     letter-spacing: 0.855px;
     text-transform: uppercase;
 }
+
 @media screen and (min-width:320px) and (max-width:376px) {
     .why {
         margin-left: 40px;
@@ -876,11 +882,12 @@ ul.navbar-nav li.nav-item a {
     letter-spacing: 0.54px;
     text-transform: capitalize;
 }
+
 @media screen and (min-width:320px) and (max-width:376px) {
     .loream_tew {
-       margin-left: 40px;
-       font-size: 14px;
-       padding-top: 10px;
+        margin-left: 40px;
+        font-size: 14px;
+        padding-top: 10px;
     }
 }
 
@@ -893,11 +900,12 @@ ul.navbar-nav li.nav-item a {
     padding-top: 97px;
     padding-left: 80px;
 }
-@media screen and (min-width:320px) and (max-width:376px){
-    .quciks{
+
+@media screen and (min-width:320px) and (max-width:376px) {
+    .quciks {
         padding-top: 35px;
         padding-left: 60px;
-    } 
+    }
 }
 
 .lefts {
@@ -929,20 +937,23 @@ p {
     text-transform: uppercase;
     margin-top: 97px;
 }
-@media screen and (min-width:320px) and (max-width:376px){
-    .hourse{
+
+@media screen and (min-width:320px) and (max-width:376px) {
+    .hourse {
         margin-top: 35px;
-    } 
+    }
 }
 
 .opening_hourse {
     padding-left: 80px;
 }
-@media screen and (min-width:320px) and (max-width:376px){
-    .opening_hourse{
+
+@media screen and (min-width:320px) and (max-width:376px) {
+    .opening_hourse {
         padding-left: 60px;
-    } 
+    }
 }
+
 .time {
     color: #C93;
 }
@@ -955,10 +966,11 @@ p {
 .address_area {
     padding-left: 97px;
 }
-@media screen and (min-width:320px) and (max-width:376px){
-    .address_area{
+
+@media screen and (min-width:320px) and (max-width:376px) {
+    .address_area {
         padding-left: 60px;
-    } 
+    }
 }
 
 .get_in_touch {
@@ -970,19 +982,21 @@ p {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
 }
-@media screen and (min-width:320px) and (max-width:376px){
-    .get_in_touch{
+
+@media screen and (min-width:320px) and (max-width:376px) {
+    .get_in_touch {
         margin-top: 45px;
-    } 
+    }
 }
 
 .final_location {
     text-transform: capitalize;
 }
-@media screen and (min-width:320px) and (max-width:376px){
-    .final_location{
-       font-size: 13.5px;
-    } 
+
+@media screen and (min-width:320px) and (max-width:376px) {
+    .final_location {
+        font-size: 13.5px;
+    }
 }
 
 .restaurant {
@@ -992,10 +1006,11 @@ p {
     letter-spacing: 0.54px;
     text-transform: capitalize;
 }
-@media screen and (min-width:320px) and (max-width:376px){
-    .restaurant{
+
+@media screen and (min-width:320px) and (max-width:376px) {
+    .restaurant {
         font-size: 13px
-    } 
+    }
 }
 
 .numbers {
@@ -1017,12 +1032,13 @@ p {
     width: 1519px;
     display: block;
 }
-@media screen and (min-width:320px) and (max-width:376px){
-    .footer_part-3{
+
+@media screen and (min-width:320px) and (max-width:376px) {
+    .footer_part-3 {
         margin-top: 81px;
         height: 58px;
         display: block;
-    } 
+    }
 }
 
 .copy_right {
@@ -1036,12 +1052,13 @@ p {
     text-transform: capitalize;
     color: #000000;
 }
-@media screen and (min-width:320px) and (max-width:376px){
-    .copy_right{
-       padding-top: 15px;
-       left: 39px;
-       font-size: 17px;
-    } 
+
+@media screen and (min-width:320px) and (max-width:376px) {
+    .copy_right {
+        padding-top: 15px;
+        left: 39px;
+        font-size: 17px;
+    }
 }
 
 .all_app {
